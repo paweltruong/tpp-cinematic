@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6419895217955752724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49eabc31d3b0771458cb4020adeeeef7, type: 3}
+  m_Name: 0079b0f3-31b4-4e2c-a627-8bc57d3b3539
+  m_EditorClassIdentifier: 
+  speaker: 101
+  type: 0
+  text: (Stares at you)
+  animation: 0
+  children:
+  - ceb8e19a-20ea-40d7-911a-d974115955bb
+  - 49ad7029-093d-4095-aca4-cef30ebd2c75
+  rect:
+    serializedVersion: 2
+    x: 334
+    y: 106
+    width: 200
+    height: 100
+--- !u!114 &-5829490298939365715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49eabc31d3b0771458cb4020adeeeef7, type: 3}
+  m_Name: 49ad7029-093d-4095-aca4-cef30ebd2c75
+  m_EditorClassIdentifier: 
+  speaker: 1
+  type: 1
+  text: Have you seen soldiers escorting a girl recently?
+  animation: 4
+  children:
+  - 7b3feca1-780a-42f4-9ca1-f21722a3c529
+  rect:
+    serializedVersion: 2
+    x: 572
+    y: 290
+    width: 200
+    height: 100
+--- !u!114 &-3462187927373167118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49eabc31d3b0771458cb4020adeeeef7, type: 3}
+  m_Name: 6f11a91d-2ab7-4aee-b649-5a8353bfa10b
+  m_EditorClassIdentifier: 
+  speaker: 101
+  type: 0
+  text: (Nods his head)
+  animation: 2
+  children:
+  - 49ad7029-093d-4095-aca4-cef30ebd2c75
+  rect:
+    serializedVersion: 2
+    x: 933
+    y: 15
+    width: 200
+    height: 100
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c502e2fbb7e80747873c16f45a6d00c, type: 3}
+  m_Name: PeasantDialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5678418328677579038}
+  - {fileID: -6419895217955752724}
+  - {fileID: 3089342614767390067}
+  - {fileID: -5829490298939365715}
+  - {fileID: -3462187927373167118}
+  - {fileID: 5945169042715342456}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3089342614767390067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49eabc31d3b0771458cb4020adeeeef7, type: 3}
+  m_Name: ceb8e19a-20ea-40d7-911a-d974115955bb
+  m_EditorClassIdentifier: 
+  speaker: 1
+  type: 1
+  text: Are you deaf?
+  animation: 4
+  children:
+  - 6f11a91d-2ab7-4aee-b649-5a8353bfa10b
+  rect:
+    serializedVersion: 2
+    x: 588
+    y: 60
+    width: 200
+    height: 100
+--- !u!114 &5678418328677579038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49eabc31d3b0771458cb4020adeeeef7, type: 3}
+  m_Name: 91672c76-bf1a-41f8-972a-836eea25cf75
+  m_EditorClassIdentifier: 
+  speaker: 1
+  type: 0
+  text: Peasant,  listen!
+  animation: 0
+  children:
+  - 0079b0f3-31b4-4e2c-a627-8bc57d3b3539
+  rect:
+    serializedVersion: 2
+    x: 61
+    y: 94
+    width: 200
+    height: 100
+--- !u!114 &5945169042715342456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49eabc31d3b0771458cb4020adeeeef7, type: 3}
+  m_Name: 7b3feca1-780a-42f4-9ca1-f21722a3c529
+  m_EditorClassIdentifier: 
+  speaker: 101
+  type: 0
+  text: (Points to the temple)
+  animation: 1
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 902
+    y: 271
+    width: 200
+    height: 100
